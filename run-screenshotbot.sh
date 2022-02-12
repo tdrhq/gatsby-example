@@ -1,5 +1,6 @@
 
 curl https://screenshotbot.io/recorder.sh | sh
-~/screenshotbot/recorder --record-static-website \
+~/screenshotbot/recorder --static-website public \
+ --channel gatsby-example \
  --api-key "$SCREENSHOTBOT_API_KEY" \
- --api-secret "$SCREENSHOTBOT_API_SECRET"
+ --api-secret "$SCREENSHOTBOT_API_SECRET" \
